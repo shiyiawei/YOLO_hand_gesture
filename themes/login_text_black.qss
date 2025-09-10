@@ -1,0 +1,6 @@
+QLineEdit {
+    font: bold 14pt "微软雅黑";
+    background-color: rgba(255, 255, 255, 0.0); 
+    border: 0px solid #b0bec5; 
+    color: rgb(0, 0, 0); 
+}

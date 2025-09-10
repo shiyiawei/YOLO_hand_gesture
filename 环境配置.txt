@@ -1,0 +1,14 @@
+[配置环境]
+(1)使用anaconda新建python3.10环境:
+conda create -n env_rec python=3.10
+(2)激活创建的环境:
+conda activate env_rec
+(3)使用pip安装所需的依赖，可通过requirements.txt:
+pip install -r requirements.txt
+
+
+基于YOLOv8/v5的手势识别系统v1.0
+作者：宋轩逸
+GitHub: https://github.com/shiyiawei
+
+杭电圣光机联合学院2020级本科毕设作品

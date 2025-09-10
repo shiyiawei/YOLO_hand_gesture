@@ -1,0 +1,48 @@
+<RCC>
+  <qresource prefix="images">
+    <file>icons/love.jpg</file>
+    <file>icons/motto.png</file>
+    <file>icons/model.png</file>
+    <file>icons/weed_logo.png</file>
+    <file>icons/icon.png</file>
+    <file>icons/weed_logo.png</file>
+    <file>icons/gallery.png</file>
+    <file>icons/burger-menu.png</file>
+    <file>icons/title_bar.png</file>
+    <file>icons/title_bar.png</file>
+    <file>icons/user.png</file>
+    <file>icons/blur.png</file>
+    <file>icons/folder.png</file>
+    <file>icons/video.png</file>
+    <file>icons/back-image.png</file>
+    <file>icons/settings.png</file>
+    <file>icons/save.png</file>
+    <file>icons/author.png</file>
+    <file>icons/Ordinateur.png</file>
+    <file>icons/Score.png</file>
+    <file>icons/count.png</file>
+    <file>icons/selection.png</file>
+    <file>icons/recovery.png</file>
+    <file>icons/g1.png</file>
+    <file>icons/net_speed.png</file>
+    <file>icons/result.png</file>
+    <file>icons/ini-image.png</file>
+    <file>icons/versions.png</file>
+  </qresource>
+  <qresource prefix="login">
+    <file>icons/login.jpg</file>
+    <file>icons/logo1.png</file>
+    <file>icons/bird-logo.png</file>
+    <file>icons/check.png</file>
+    <file>icons/checked.png</file>
+    <file>icons/user.png</file>
+    <file>icons/person1.gif</file>
+    <file>icons/captcha_1.png</file>
+    <file>icons/extractLeft.png</file>
+    <file>icons/logo2.png</file>
+    <file>icons/logo3.png</file>
+    <file>icons/logo4.png</file>
+    <file>icons/sign.png</file>
+    <file>icons/minmax.png</file>
+  </qresource>
+</RCC>

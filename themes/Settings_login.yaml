@@ -1,0 +1,69 @@
+# 本文件用于配置UI中的文字和图标背景等
+
+label_movie:
+  type: "QLabel"
+  background: "icons/sign.png"
+
+label_pic_reg:
+  type: "QLabel"
+  background: "icons/user.png"
+
+label_pic:
+  type: "QLabel"
+  background: "icons/user.png"
+
+label_log_password:
+  type: "QLabel"
+  background: "icons/logo3.png"
+
+label_log_passwordBack:
+  type: "QLabel"
+  background: "icons/logo1.png"
+
+label_log_user:
+  type: "QLabel"
+  background: "icons/logo2.png"
+
+label_log_userBack:
+  type: "QLabel"
+  background: "icons/logo1.png"
+
+label_reg_password:
+  type: "QLabel"
+  background: "icons/logo3.png"
+
+label_reg_passwordBack:
+  type: "QLabel"
+  background: "icons/logo1.png"
+
+label_reg_user:
+  type: "QLabel"
+  background: "icons/logo2.png"
+
+label_reg_userBack:
+  type: "QLabel"
+  background: "icons/logo1.png"
+
+label_reg_vercode:
+  type: "QLabel"
+  background: "icons/logo4.png"
+
+label_reg_vercodeBack:
+  type: "QLabel"
+  background: "icons/logo1.png"
+
+toolButton_verCode:
+  type: "QToolButton"
+  icon: "icons/captcha_1.png"
+
+Dialog:
+  type: "QDialog"
+  windowIcon: "icons/bird-logo.png"
+
+btn_close:
+  type: "QPushButton"
+  icon: "icons/extractLeft.png"
+
+btn_minimize:
+  type: "QPushButton"
+  icon: "icons/minmax.png"

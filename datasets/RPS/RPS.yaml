@@ -1,0 +1,9 @@
+path: d:/graduation project/HandGestureDet/datasets/RPS
+train: train/images/
+val: valid/images/
+test: test/images/
+nc: 3
+names:
+  0: Stop
+  1: Understand
+  2: NumberTwo

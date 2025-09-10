@@ -1,0 +1,24 @@
+QTextEdit{
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(0, 0, 0);
+    border: 1px solid #ddd;
+    font: regular 12pt 华文仿宋;
+}
+
+QLabel {
+    color: #333;
+    font-size: 18px;
+    font-family: 'Arial';
+}
+
+QScrollArea {
+    border: 0px;
+}
+
+QTableWidget {
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #00e09e;
+    alternate-background-color: rgba(245, 245, 245, 0.5);
+    gridline-color: #00e09e;
+}
