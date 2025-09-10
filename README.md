@@ -88,30 +88,38 @@ python main.py
 
 ```
 gesture-recognition-system/
-├── main.py                 # 主程序入口
-├── models/                 # 预训练模型权重
-│   ├── yolov5n.pt
-│   └── yolov8.pt
-├── src/
-│   ├── detection/          # 核心检测模块
-│   │   ├── detector.py     # YOLOv8v5Detector类
-│   │   └── utils.py        # 工具函数
-│   ├── ui/                 # 用户界面组件
-│   │   ├── login_window.py # 登录/注册界面
-│   │   ├── main_window.py  # 主应用窗口
-│   │   └── recognition_ui.py # 识别界面
-│   └── database/
-│       └── user_db.py      # SQLite用户管理
-├── data/                   # 数据集和示例图像
-├── logs/                   # 检测结果日志
-├── requirements.txt        # 依赖库列表
-└── README.md              # 项目说明文档
+├── data/                           # 数据目录
+│   └── model/                      # 预训练模型存放
+├── HandGestureDet/                # 主要手势检测项目
+│   ├── datasets/                  # 数据集目录
+│   │   └── RPS/                   # 石头剪刀布数据集
+│   │       ├── test/              # 测试集(图像+标签)
+│   │       ├── train/             # 训练集(图像+标签)
+│   │       └── valid/             # 验证集(图像+标签)
+│   ├── runs/                      # 训练运行结果
+│   │   └── detect/                # 各版本训练结果及权重
+│   ├── ultralytics/               # Ultralytics YOLO库
+│   ├── themes/                    # UI主题文件
+│   ├── icons/                     # 图标资源
+│   └── weights/                   # 模型权重文件
+├── Light-HaGRID/                  # 轻量级HaGRID数据集
+│   └── trainval/                  # 训练验证数据
+│       ├── call/                  # 通话手势数据
+│       ├── dislike/               # 不喜欢手势数据
+│       └── fist/                  # 握拳手势数据
+├── yolov5/                        # YOLOv5框架
+│   ├── data/                      # 数据配置和测试图像
+│   ├── models/                    # 模型定义文件
+│   ├── runs/                      # YOLOv5训练结果
+│   └── utils/                     # 工具函数模块
+└── runs/                          # 全局运行结果
+└── result/                    # 检测结果输出
 ```
 
 ## 使用方法
 
 ### 启动应用程序
-1. 运行 `python main.py`
+1. 运行 `python run_main_login.py`
 2. 注册新账户或使用现有凭据登录
 3. 选择检测模型（YOLOv5n或YOLOv8）
 
