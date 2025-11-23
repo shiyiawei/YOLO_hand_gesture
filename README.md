@@ -88,32 +88,50 @@ python main.py
 
 ```
 gesture-recognition-system/
-├── data/                           # 数据目录
-│   └── model/                      # 预训练模型存放
-├── HandGestureDet/                # 主要手势检测项目
-│   ├── datasets/                  # 数据集目录
-│   │   └── RPS/                   # 石头剪刀布数据集
-│   │       ├── test/              # 测试集(图像+标签)
-│   │       ├── train/             # 训练集(图像+标签)
-│   │       └── valid/             # 验证集(图像+标签)
-│   ├── runs/                      # 训练运行结果
-│   │   └── detect/                # 各版本训练结果及权重
-│   ├── ultralytics/               # Ultralytics YOLO库
-│   ├── themes/                    # UI主题文件
-│   ├── icons/                     # 图标资源
-│   └── weights/                   # 模型权重文件
-├── Light-HaGRID/                  # 轻量级HaGRID数据集
-│   └── trainval/                  # 训练验证数据
-│       ├── call/                  # 通话手势数据
-│       ├── dislike/               # 不喜欢手势数据
-│       └── fist/                  # 握拳手势数据
-├── yolov5/                        # YOLOv5框架
-│   ├── data/                      # 数据配置和测试图像
-│   ├── models/                    # 模型定义文件
-│   ├── runs/                      # YOLOv5训练结果
-│   └── utils/                     # 工具函数模块
-└── runs/                          # 全局运行结果
-└── result/                    # 检测结果输出
+├── .idea/                          # PyCharm IDE配置文件
+├── __pycache__/                    # Python字节码缓存
+├── datasets/                       # 数据集目录
+│   └── (手势数据集存放)
+├── icons/                          # 图标资源文件
+├── runs/                           # 训练运行结果
+│   └── (模型训练输出、检测结果)
+├── test_media/                     # 测试媒体文件
+│   └── (测试用图片、视频)
+├── themes/                         # UI主题样式文件
+├── ultralytics/                    # Ultralytics YOLO核心库
+├── weights/                        # 模型权重文件
+│   └── (预训练模型、训练后的权重)
+│
+├── __init__.py                     # Python包初始化文件
+├── LoginForm.ui                    # 登录界面UI设计文件 (24.9 KB)
+├── LoginForm.py                    # 登录界面Python实现 (20.9 KB)
+├── LoginWindow.py                  # 登录窗口逻辑 (16.3 KB)
+├── Recognition_UI.ui               # 识别系统UI设计文件 (79.6 KB)
+├── Recognition_UI.py               # 识别系统界面实现 (55.1 KB)
+├── Recognition_UI_ui.py            # UI编译后的Python代码 (55.1 KB)
+├── RecSystem.qrc                   # Qt资源文件 (1.51 KB)
+├── RecSystem.py                    # 主系统模块 (27.4 MB)
+├── RecSystem_rc.py                 # 资源编译文件 (7.79 MB)
+├── System_login.py                 # 带登录的系统主程序 (8.16 KB)
+├── System_noLogin.py               # 无登录的系统主程序 (30.9 KB)
+├── YOLOv8v5Model.py                # YOLO模型封装类 (4.49 KB)
+│
+├── run_main_login.py               # 启动入口(带登录) (1.07 KB)
+├── run_main_noLogin.py             # 启动入口(无登录) (991 B)
+├── run_test_camera.py              # 摄像头测试脚本 (3.63 KB)
+├── run_test_image.py               # 图片测试脚本 (3.58 KB)
+├── run_test_video.py               # 视频测试脚本 (3.86 KB)
+├── run_train_model.py              # 模型训练脚本 (2.24 KB)
+│
+├── UserDatabase.db                 # 用户数据库文件 (12.0 KB)
+├── requirements.txt                # 项目依赖列表 (1.22 KB)
+├── environment.txt                 # 环境配置说明 (401 B)
+├── 环境配置.txt                     # 环境配置说明(中文) (401 B)
+├── test.py                         # 测试脚本 (72 B)
+│
+└── 输出示例/
+    ├── video_2024-06-03-23-34-27.avi      # 检测结果视频
+    └── table_data_2024-06-03-23-34-27.csv # 检测数据表格
 ```
 
 ## 使用方法
